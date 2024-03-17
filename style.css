@@ -1,0 +1,78 @@
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.cont{
+    max-width: 1500px;
+    width: 100%;
+    margin: auto;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    gap: 10px; 
+}
+
+.title_section{
+    font-size: 40px;
+    text-align: center;
+}
+
+.consisting_worker{
+    margin-top: 50px;
+    border-collapse: collapse;
+}
+
+.header_tr{
+    border: 1px solid black;
+}
+
+.header_tr td{
+    border: 1px solid black;
+    padding: 20px 55px;
+}
+
+.block_employment p{
+    color: red;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.block_info_woker{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.block_description_worker{
+    margin-top: 30px;
+    display: none;
+}
+
+.block_description_worker > p{
+    color: red;
+    font-size: 20px;
+}
+
+.field_text{
+    background: rgb(103, 97, 97);
+    padding: 40px 20px;
+    margin-top: 25px;
+}
+
+.field_text p {
+    color: white;
+    font-size: 16px;
+}
+
+td > button:first-child{
+    margin-bottom: 15px;
+}
+
